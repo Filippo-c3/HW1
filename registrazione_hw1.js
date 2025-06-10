@@ -68,7 +68,8 @@ function validaPassword(){
     const errore= document.querySelector(".password .errore");
     const password= form.password;
 
-    if(password.value.length==0){
+    if(password.value.length==0 || !/^(?=.\d)(?=.[!@#$%^&])(?=.[a-z])(?=.*[A-Z]).{8,}$/.test(
+      password.value)){
         errore.classList.remove("hidden");
         return false;
     }else{
