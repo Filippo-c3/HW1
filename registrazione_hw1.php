@@ -104,7 +104,7 @@ if(empty($errori)){
                             
                         <div class="errore hidden">
                                 <img src="pngegg.png" alt="">
-                                <div class="errore_2"> <span>compila questo campo</span></div>
+                                <div class="errore_2"> <span>password nel formato non corretto</span></div>
                             </div>
                     </div>
                     <input type="submit" value="CREATE MY ACCOUNT">
